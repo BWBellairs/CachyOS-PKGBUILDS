@@ -2,8 +2,8 @@
 # Contributor: loathingkernel <loathingkernel _a_ gmail _d_ com>
 
 pkgname=umu-launcher
-pkgver=1.2.6
-pkgrel=4
+pkgver=1.2.9
+pkgrel=2
 pkgdesc="This is the Unified Launcher for Windows Games on Linux, to run Proton with fixes outside of Steam"
 arch=('x86_64')
 url="https://github.com/Open-Wine-Components/umu-launcher"
@@ -69,8 +69,8 @@ source=(
     "git+https://github.com/Open-Wine-Components/umu-launcher.git#tag=$pkgver"
     umu-proton-cachyos.patch
 )
-sha256sums=('15044c5546b80ef16ad0ef7eb192ccc76258063f273bcc4f2a2f1b35d7113169'
-            '3c8fb354ecb0b95b28e7313fc35a2f2eecd2e8beaed7f236ab57a1b08b1e67a9')
+sha256sums=('a530633ef0e777fa8977796046eaed7ff09933915afdb1b1ef557508a9d858d5'
+            '7639c9b92fb5ca6c8db53019d32867c82f8665198ccc763685cf2aa263194f26')
 
 prepare() {
   cd "$srcdir"/umu-launcher
